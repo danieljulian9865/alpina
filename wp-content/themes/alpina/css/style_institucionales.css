@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('reset.css');
+/* Fonts */
+@font-face {
+	font-family: 'open_sansregular';
+	src: url('fonts/OpenSans-Regular-webfont.eot');
+	src: url('fonts/OpenSans-Regular-webfont.eot@#iefix') format('embedded-opentype'), url('fonts/OpenSans-Regular-webfont.woff') format('woff'), url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sansbold';
+	src: url('fonts/OpenSans-Bold-webfont.eot');
+	src: url('fonts/OpenSans-Bold-webfont.eot@#iefix') format('embedded-opentype'), url('fonts/OpenSans-Bold-webfont.woff') format('woff'), url('fonts/OpenSans-Bold-webfont.ttf') format('truetype'), url('fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sanslight';
+	src: url('fonts/OpenSans-Light-webfont.eot');
+	src: url('fonts/OpenSans-Light-webfont.eot@#iefix') format('embedded-opentype'), url('fonts/OpenSans-Light-webfont.woff') format('woff'), url('fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sanssemibold';
+	src: url('fonts/OpenSans-Semibold-webfont.eot');
+	src: url('fonts/OpenSans-Semibold-webfont.eot@#iefix') format('embedded-opentype'), url('fonts/OpenSans-Semibold-webfont.woff') format('woff'), url('fonts/OpenSans-Semibold-webfont.ttf') format('truetype'), url('fonts/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sanssemibold_italic';
+	src: url('fonts/OpenSans-SemiboldItalic-webfont.eot');
+	src: url('fonts/OpenSans-SemiboldItalic-webfont.eot@#iefix') format('embedded-opentype'), url('fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'), url('fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'), url('fonts/OpenSans-SemiboldItalic-webfont.svg#open_sanssemibold_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sansbold_italic';
+	src: url('fonts/OpenSans-BoldItalic-webfont.eot');
+	src: url('fonts/OpenSans-BoldItalic-webfont.eot@#iefix') format('embedded-opentype'), url('fonts/OpenSans-BoldItalic-webfont.woff') format('woff'), url('fonts/OpenSans-BoldItalic-webfont.ttf') format('truetype'), url('fonts/OpenSans-BoldItalic-webfont.svg#open_sansbold_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.simagenesinst{
+	width: 808px;
+	height: auto;
+	float: left;
+	margin: 0 65px 40px 65px;
+}
+.simagenesinst .cimagen{
+	width:264px;
+	height: auto;
+	float: left;
+	margin: 0px 2px 20px 3px;
+}
+.simagenesinst .cimagen .imagen{
+	width:264px;
+	height: 93px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.simagenesinst .cimagen .imagen img {
+	position: relative
+}
+.simagenesinst .cimagen .tituloimg{
+	width:264px;
+	height: 50px;
+	float: left;
+    display: table;
+	background: #085892;
+	background: -moz-linear-gradient(top, #085892 1%, #1b70c5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #085892), color-stop(100%, #1b70c5));
+	background: -webkit-linear-gradient(top, #085892 1%, #1b70c5 100%);
+	background: -o-linear-gradient(top, #085892 1%, #1b70c5 100%);
+	background: -ms-linear-gradient(top, #085892 1%, #1b70c5 100%);
+	background: linear-gradient(to bottom, #085892 1%, #1b70c5 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#085892', endColorstr='#1b70c5', GradientType=0 );
+	border-width: 1px;
+	border-style: none none solid none;
+	border-color: #fff;
+}
+.simagenesinst .cimagen .tituloimg h2{
+	font-family: 'open_sansregular', Arial, sans-serif;
+	font-size: 13px;
+	line-height: 14px;
+	color: #333;
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center; 
+	text-transform: uppercase;
+	padding: 10px;
+	color: #fff;
+}
+
+.simagenesinst .noticia {
+	width: 100%;
+	height:auto;
+	float: left;
+}
+
+.simagenesinst .noticia .titulo {
+	float: left;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+
+}
+.simagenesinst .noticia .titulo h3 {
+ font-family: 'open_sansbold', Arial, sans-serif;
+ color:#06328c;
+ font-size:16px;
+}
+
+.simagenesinst .noticia .info {
+ font-family: 'open_sansregular', Arial, sans-serif;
+ color:#6d6d6d;
+ font-size:13px;
+ line-height: 21px;
+ float: left;
+}
+
+.simagenesinst .noticia .instlinea {
+    width:100%;
+    height: 1px;
+    display: block;
+    background-color: #E1E1E1;
+    margin: 40px 0 30px 0;
+    float: left;
+}
+
+ @media only screen and (min-width:569px) and (max-width:800px) {
+ .simagenesinst{
+	width: 646px;
+	margin: 0 60px 40px 60px;
+}
+.simagenesinst .cimagen{
+	width:210px;
+}
+.simagenesinst .cimagen .imagen{
+	width:210px;
+}
+.simagenesinst .cimagen .tituloimg{
+	width:210px;
+}
+.simagenesinst .cimagen .imagen img {
+	position: relative;
+	margin: 0px 0px 0px -27px;
+}
+}
+ @media only screen and (min-width:361px) and (max-width:568px) {
+  .simagenesinst{
+	width: 478px;
+	padding: 0px 10px 0px 10px;
+	margin: 0 0 30px 0;
+}
+.simagenesinst .cimagen{
+	width:219px;
+	margin: 0px 5px 20px 5px;
+}
+.simagenesinst .cimagen .imagen{
+	width:219px;
+}
+.simagenesinst .cimagen .tituloimg{
+	width:219px;
+}
+.simagenesinst .cimagen .imagen img {
+	margin: 0px 0px 0px -22px;
+}
+.simagenesinst .noticia{
+	padding: 0 25px 0 25px;
+}
+.simagenesinst .noticia .titulo h3 {
+ font-size:18px;
+}
+.simagenesinst .noticia .info {
+
+ font-size:15px;
+}
+}
+ @media only screen and (max-width:360px) {
+   .simagenesinst{
+	width: 318px;
+	margin: 0 0 25px 0;
+}
+.simagenesinst .cimagen{
+	width:318px;
+	margin: 0px 0px 20px 0px;
+}
+.simagenesinst .cimagen .imagen{
+	width:318px;
+	background: #cfcfcd;
+	background: -moz-linear-gradient(top,  #cfcfcd 0%, #cecece 12%, #d6d6d6 33%, #dbdbdb 57%, #dadada 80%, #d4d4d4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cfcfcd), color-stop(12%,#cecece), color-stop(33%,#d6d6d6), color-stop(57%,#dbdbdb), color-stop(80%,#dadada), color-stop(100%,#d4d4d4));
+	background: -webkit-linear-gradient(top,  #cfcfcd 0%,#cecece 12%,#d6d6d6 33%,#dbdbdb 57%,#dadada 80%,#d4d4d4 100%);
+	background: -o-linear-gradient(top,  #cfcfcd 0%,#cecece 12%,#d6d6d6 33%,#dbdbdb 57%,#dadada 80%,#d4d4d4 100%);
+	background: -ms-linear-gradient(top,  #cfcfcd 0%,#cecece 12%,#d6d6d6 33%,#dbdbdb 57%,#dadada 80%,#d4d4d4 100%);
+	background: linear-gradient(to bottom,  #cfcfcd 0%,#cecece 12%,#d6d6d6 33%,#dbdbdb 57%,#dadada 80%,#d4d4d4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcd', endColorstr='#d4d4d4',GradientType=0 );
+}
+.simagenesinst .cimagen .tituloimg{
+	width:318px;
+}
+.simagenesinst .cimagen .imagen img {	
+margin: 0px 0px 0px 24px;
+}
+.simagenesinst .noticia{
+	padding: 0 25px 0 25px;
+}
+
+.simagenesinst .noticia .titulo h3 {
+ font-size:18px;
+}
+.simagenesinst .noticia .info {
+
+ font-size:15px;
+}
+}
+
