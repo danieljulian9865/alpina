@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../themes.googleusercontent.com/static/fonts/bitter/v5/m9utyise0runoampferm-g.eot);
+  src: local('Bitter-Regular'), url(../themes.googleusercontent.com/static/fonts/bitter/v5/m9utyise0runoampferm-g.eot) format('embedded-opentype'), url(../themes.googleusercontent.com/static/fonts/bitter/v5/s9gjb935qk_yg8d-lntdva.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../themes.googleusercontent.com/static/fonts/sourcesanspro/v7/odeli1ahbydbqgeiah2zlea6tahcingmhcufv_v7m-i.eot);
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(../themes.googleusercontent.com/static/fonts/sourcesanspro/v7/odeli1ahbydbqgeiah2zlea6tahcingmhcufv_v7m-i.eot) format('embedded-opentype'), url(../themes.googleusercontent.com/static/fonts/sourcesanspro/v7/odeli1ahbydbqgeiah2zlbbhwffxjxs04xyoz0jw624.woff) format('woff');
+}
