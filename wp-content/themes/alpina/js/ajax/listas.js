@@ -6,7 +6,7 @@ function traer_estados(){
         
     if(valueSel=='Colombia' || valueSel=='0'){ 
 		  
-        var  url ="include/comboXML.php@nombrecampoValue=id_departamento&nombreCampoText=nombre&nombreTabla=geo_estados&tipoId=int&nombreId=id_pais&id="+valueSel;
+        var  url ="include/comboxml.php@nombrecampovalue=id_departamento&nombrecampotext=nombre&nombretabla=geo_estados&tipoid=int&nombreid=id_pais&id="+valueSel;
         var id_list_destino = "estado";
         var hadHeaderOption = true;
         var  defaultText= "0";
@@ -49,7 +49,7 @@ function traer_estados(){
 function traer_ciudades(){
 
     var valueSel = document.formRegistro.estado.options[document.formRegistro.estado.selectedIndex].value;	   
-    var  url ="include/comboXML.php@nombrecampoValue=id_ciudad&nombreCampoText=nombre&nombreTabla=geo_ciudades&tipoId=int&nombreId=id_estados&id="+valueSel;
+    var  url ="include/comboxml.php@nombrecampovalue=id_ciudad&nombrecampotext=nombre&nombretabla=geo_ciudades&tipoid=int&nombreid=id_estados&id="+valueSel;
     var id_list_destino = "ciudad";
     var hadHeaderOption = true;
     var  defaultText= "0";
